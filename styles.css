@@ -93,6 +93,7 @@ font-size: large;
 }
 
 .box:after {
+  border-radius: 10%;
   content: "";
   position: absolute;
   top: -2px;
