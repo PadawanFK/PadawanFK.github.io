@@ -72,6 +72,7 @@ font-size: large;
 }
 /* -----------LIGHT EFFECTS INIT----------- */
 .box {
+  border-radius: 10%;
   position: relative;
   display: flex;
   justify-content: center;
