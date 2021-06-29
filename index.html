@@ -1,28 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF 8">
-    <title>Meu Portifólio | João Victor Paduam</title>    
-  </head>
-  <body>
-    <h1 id="nome">João Victor Cunha Paduam Falcão</h1>  
-    <img id="minhafoto" src="/Eu.png" alt="Uma selfie minha" width="250px">
-    <p id="sobremim">Oi, eu sou João, nascido e criado no Rio de Janeiro. Tenho 19 anos, sou flamenguista curso Economia na UERJ e agora estou me aventurando no Web Design. <br> Curto assistir filmes, séries, animes, videos no Youtube, ouvir todo tipo de música e também jogar.</p>
-    <h3><a target="_blank" href="https://www.linkedin.com/in/joaovictorpaduam/">Linkedin</a></h3>
-    <h3><a target="_blank" href="https://www.instagram.com/padawancunha/">Instagram</a></h3>
-    <h2>Skills</h2>
-    <ul id="skills">
-      <li>Comunicativo</li>
-      <li>Divertido</li>
-      <li>Líder</li>
-      <li>Prestativo</li>
-      <li>Criativo</li>
-    </ul>
-    <ol>
-      <li><a href="#nome">Meu Nome</a></li>
-      <li><a href="#minhafoto">Minha Foto</a></li>
-      <li><a href="#sobremim">Sobre mim</a></li>
-      <li><a href="#skills"> Skills</a></li>
-    </ol>
-  </body>
+
+<head>
+  <meta charset="UTF 8">
+  <title>Meu Portifólio | João Victor Paduam</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quantico|Rajdhani" rel="stylesheet">
+</head>
+
+<body>
+  <header id="header">
+    <h1 id="title">Portifólio</h1>
+    <div id="top-anchors">
+      <a class="top-anchor" href="#nome-a">Meu Nome</a>
+      <a class="top-anchor" href="#minhafoto-a">Minha Foto</a>
+      <a class="top-anchor" href="#sobremim-a">Sobre mim</a>
+      <a class="top-anchor" href="#redesocial"> Redes Sociais</a>
+      <a class="top-anchor" href="#skills"> Skills</a>
+      <a class="top-anchor" target="blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> EM BREVE</a>
+      
+    </div>
+    <p id="minhafoto-a"></p><p id="nome-a"></p> <p id="sobremim-a"></p>
+  </header>
+  <section id="me">
+    <div class="box">
+      <img id="minhafoto" src="/Eu.png" alt="Uma selfie minha" width="250px">
+    </div>
+    <div class="box2" id='me-text'>
+      <h2 id="nome">João Victor Cunha Paduam Falcão</h2>
+      <h4 id="formacao">Estudante de Ciências Econômicas - UERJ | Estudante de Desenvolvimento Web - Trybe</h4>
+      <p id="sobremim">Oi, eu sou João, nascido e criado no Rio de Janeiro. Tenho 19 anos, sou flamenguista curso
+        Economia na UERJ e agora estou me aventurando no Web Design. <br>Sempre fui apaixonado por tecnologia, desde
+        criança me aventurava entre sites e jogos, por isso quando surgiu a oportunidade quis levar esse hobbie além, e
+        torná-lo uma carreira. <br> Curto assistir filmes, séries, animes, videos no Youtube, jogar sozinho ou com os
+        amigos e ouvir todo tipo de música.</p>
+    </div>
+  </section>
+  <section id='redes-sociais'>
+    <h2 id="redesocial">Redes Sociais:</h2>
+    <div id="social">
+      <div class="center">
+        <a target="_blank" href="https://www.linkedin.com/in/joaovictorpaduam/" class="social-web">
+          <img src="linkedinblack.png" alt="Logo do Linkedin" width="190px"></a>
+      </div>
+      <div class="center">
+        <a target="_blank" href="https://www.instagram.com/padawancunha/">
+          <img src="instablack.png" alt="Logo do Instagram" width="190px"></a>
+      </div>
+    </div>
+  </section>
+  <section id="skill-section">
+    <div>
+      <h2 id="title-skills">Skills</h2>
+      <ul id="skills">
+        <li>Comunicativo</li>
+        <li>Divertido</li>
+        <li>Líder</li>
+        <li>Prestativo</li>
+        <li>Criativo</li>
+      </ul>
+    </div>
+  </section>
+  <footer id="footer">
+
+  </footer>
+</body>
+
 </html>
