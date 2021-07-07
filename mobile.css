@@ -1,0 +1,33 @@
+#header {
+  display: flex;
+  flex-direction: column;
+  background-image: url(synth.jpg);
+  background-position: 50% 80%;
+  height: 100px;
+  box-shadow: 1px 3px 10px #00e7fe;
+  /* align-items: center; */
+}
+
+#top-anchors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0;
+  box-shadow: 1px 3px 10px #00e7fe; 
+  margin-right: 0;
+  width: 100%;
+  background-color: black;
+} 
+
+#me {
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
+
+#title {
+  margin: 10px;
+}

@@ -38,6 +38,7 @@ body {
   margin-left: auto;
   box-shadow: 1px 3px 10px #00e7fe; 
   margin-right: 5%;
+  width: auto;
 }
 
 .top-anchor{
@@ -187,11 +188,7 @@ font-size: large;
   align-items: center;
 }
 
-.social-web {
-  width: 10%;
-}
-
-.center {
+#lkdin {
   background: rgb(248,25,130);
   background: linear-gradient(34deg, rgba(248,25,130,1) 21%, rgba(3,28,253,1) 50%, rgba(0,231,254,1) 84%);
   margin: 50px;
@@ -199,10 +196,24 @@ font-size: large;
   padding: 15px;
 }
 
-.center:hover {
+#lkdin:hover {
   box-shadow: -2px 2px 20px 5px #06daf6;
   border: solid 2px #00e7fe;
-  padding: 30px;
+  padding: 20px;
+}
+
+#insta {
+  background: rgb(248,25,130);
+  background: linear-gradient(34deg, rgba(248,25,130,1) 21%, rgba(3,28,253,1) 50%, rgba(0,231,254,1) 84%);
+  margin: 50px;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+#insta:hover {
+  box-shadow: -2px 2px 20px 5px #06daf6;
+  border: solid 2px #00e7fe;
+  padding: 20px;
 }
 
 #redesocial {
@@ -232,5 +243,3 @@ font-size: large;
   color: white;
 }
 /* -----------SECTION FOOTER----------- */
-
-
