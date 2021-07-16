@@ -6,6 +6,11 @@
   height: 100px;
   box-shadow: 1px 3px 10px #00e7fe;
   align-items: center;
+  position: relative;
+}
+
+#title {
+  margin: 10px;
 }
 
 #top-anchors {
@@ -17,17 +22,43 @@
   margin-right: 0;
   width: 100%;
   background-color: black;
-} 
+  text-align: center;
+}
+
+.top-anchor{
+  font-size: 100%;
+}
+
 
 #me {
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   width: 100%;
   justify-content: center;
   align-items: center;
-  height: 550px;
+  height: 800px;
 }
 
-#title {
-  margin: 10px;
+#nome {
+text-align: center;
 }
+
+ 
+#me-text {
+  display: block;
+  width: 90%;
+  text-align: justify;
+  color: white;
+  height: auto;
+  margin: 0;
+  text-align: center;
+}
+
+.box {
+  margin: 50px;
+}
+
+.box2 {
+  margin-bottom: 50px;
+}
+
